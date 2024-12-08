@@ -58,6 +58,5 @@ public class Member extends User {
 
     public int getBorrowedBooksCount() {
         return borrowedBooksCount;
-    }
-    
+    }    
 }

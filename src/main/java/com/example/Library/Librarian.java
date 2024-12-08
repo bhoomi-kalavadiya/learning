@@ -42,5 +42,4 @@ public class Librarian extends User {
     public String getEmployeeNumber() {
         return employeeNumber;
     }
-
 }

@@ -1,7 +1,5 @@
 package com.example.Library;
 
-import main.java.com.example.Library.BookType;
-
 public abstract class Book implements Lendable{
     private String isbn;
     private String title;

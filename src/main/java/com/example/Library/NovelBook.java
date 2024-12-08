@@ -1,7 +1,5 @@
 package com.example.Library;
 
-import main.java.com.example.Library.BookType;
-
 public class NovelBook extends Book {
     private String genre;
 

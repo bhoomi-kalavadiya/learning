@@ -2,13 +2,11 @@ package com.example;
 
 import com.example.Library.Book;
 import com.example.Library.Librarian;
+import com.example.Library.LibraryManagementSystem;
 import com.example.Library.Member;
 import com.example.Library.NovelBook;
 import com.example.Library.TextBook;
 import com.example.Library.User;
-
-import main.java.com.example.Library.BookType;
-import main.java.com.example.Library.LibraryManagementSystem;
 
 /**
  * Hello world!
@@ -65,7 +63,6 @@ public class App
         System.out.println("Search--------------");
         for (Book book : l.searchBooks("Author 21","NovelBook")) {
             book.displayBookDetails();
-        };
-        
+        };        
     }
 }

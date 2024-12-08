@@ -1,10 +1,8 @@
-package main.java.com.example.Library;
+package com.example.Library;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.Library.Book;
-import com.example.Library.User;
 
 public class LibraryManagementSystem  {
     private List<Book> bookInventory;

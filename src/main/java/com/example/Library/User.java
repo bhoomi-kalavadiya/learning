@@ -1,7 +1,6 @@
 package com.example.Library;
 
 public abstract class User {
-
     private String userId;
     private String name;
     private String contactInfo;
@@ -48,8 +47,8 @@ public abstract class User {
     public abstract boolean canBorrowBooks();
 
     public abstract void returnBook(Book book);
+
     public abstract void borrowBook(Book book);
 
-    public abstract void userInfo();
-    
+    public abstract void userInfo();    
 }
